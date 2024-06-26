@@ -1,5 +1,8 @@
 package cl.bootcamp.proyectoWeb.service;
 
-public interface CuentaService {
+import java.math.BigDecimal;
+import cl.bootcamp.proyectoWeb.entity.Cuenta;
 
+public interface CuentaService {
+    void actualizarSaldo(Cuenta cuenta, BigDecimal monto);
 }

@@ -1,5 +1,8 @@
 package cl.bootcamp.proyectoWeb.service;
 
-public interface UsuarioService {
+import cl.bootcamp.proyectoWeb.entity.Usuario;
 
+public interface UsuarioService {
+    Usuario registrarUsuario(Usuario usuario);
+    Usuario obtenerUsuarioPorId(int id);
 }
